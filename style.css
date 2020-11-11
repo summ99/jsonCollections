@@ -1,0 +1,36 @@
+body {
+  margin: 5vw 10vw 0px 10vw;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:70vh;
+  background-image: url('background.jpeg');
+  background-size: cover;
+  font-family: 'Arima Madurai', cursive;
+  color: white;
+  font-size:4rem;
+}
+h3{
+  color: #202020;
+}
+#photoGrid{
+  width: 80%;
+  text-align:center;
+  padding:3px;
+  border:solid 1px #ddd;
+}
+ #photoGrid div {
+   margin:0;
+   width:49%;
+   float:left;
+   text-align: center;
+ }
+ #photoGrid img {
+   border:none;
+   width:51px;
+   height:51px;
+ }
