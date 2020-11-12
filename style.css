@@ -14,19 +14,19 @@ body {
   color: white;
   font-size:4rem;
 }
-h3{
+h3, h4{
   color: #202020;
 }
 #photoGrid{
-  width: 80%;
+  width: 100%;
   text-align:center;
   padding:3px;
-  border:solid 1px #ddd;
 }
  #photoGrid div {
    margin:0;
-   width:49%;
+   width:24%;
    float:left;
+   border:solid 1px #ddd;
    text-align: center;
  }
  #photoGrid img {
