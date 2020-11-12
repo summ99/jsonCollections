@@ -2,35 +2,60 @@ body {
   margin: 5vw 10vw 0px 10vw;
   padding: 0px;
   font-family: 'Source Sans Pro', sans-serif;
+  color: #03211f;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arima Madurai', cursive;
+  font-size:4rem;
 }
 .cover{
   display: flex;
   justify-content: center;
   align-items: center;
-  height:70vh;
+  height:60vh;
   background-image: url('background.jpeg');
   background-size: cover;
-  font-family: 'Arima Madurai', cursive;
-  color: white;
-  font-size:4rem;
 }
-h3, h4{
-  color: #202020;
+.contentName{
+  display: flex;
+  font-size: 1rem;
+}
+.contentPrice{
+  display: flex;
+  font-size: 1rem;
 }
 #photoGrid{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 5vmin;
   width: 100%;
-  text-align:center;
-  padding:3px;
+  align-items: center;
+  justify-content: center;
 }
  #photoGrid div {
-   margin:0;
+   display: flex;
+   flex-direction: column;
    width:24%;
-   float:left;
+   height:60vh;
+   margin:0;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   background-color:#e8d9c2;
+   color: #03211f;
    border:solid 1px #ddd;
-   text-align: center;
  }
  #photoGrid img {
+   display:flex;
+   align-items: center;
+   justify-content: center;
    border:none;
-   width:51px;
-   height:51px;
+   width:18vw;
+   height:30vh;
+ }
+ #photoGrid img:hover {
+   opacity: 0.7;
  }
