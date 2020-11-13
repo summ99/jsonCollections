@@ -1,8 +1,8 @@
 body {
-  margin: 5vw 10vw 0px 10vw;
+  margin: 2.5vw 5vw 0px 5vw;
   padding: 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #03211f;
+  color: #725a41;
 }
 h1{
   display: flex;
@@ -15,50 +15,64 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  height:60vh;
-  background-image: url('background.jpeg');
-  background-size: cover;
+  height: 80vh;
+}
+.cover img{
+  width:75vw;
+  height:80vh;
 }
 .contentName{
   display: flex;
-  font-size: 1rem;
-}
-.contentPrice{
-  display: flex;
-  font-size: 1rem;
-}
-#photoGrid{
-  display:flex;
-  flex-wrap: wrap;
-  margin-top: 5vmin;
-  width: 100%;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 1rem;
 }
- #photoGrid div {
-   display: flex;
-   flex-direction: column;
-   width:24%;
+.contentName:hover{
+  color: white;
+}
+.contentPrice{
+  color:#701313;
+  font-size: 1rem;
+}
+.grid{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  margin-top: 5vmin;
+  width: 90vw;
+}
+.grid > div {
+   width:20vw;
    height:60vh;
-   margin:0;
-   flex-wrap: nowrap;
-   justify-content: center;
-   align-items: center;
+   margin:1vmin;
    background-color:#e8d9c2;
    color: #03211f;
    border:solid 1px #ddd;
  }
- #photoGrid div:hover {
+.grid img:hover {
    opacity: 0.7;
  }
- #photoGrid img {
-   display:flex;
-   align-items: center;
-   justify-content: center;
+.grid img {
+   margin-top: 0.55vmin;
+   padding:0.5vmin;
    border:none;
    width:18vw;
    height:30vh;
  }
- #photoGrid img:hover {
-   opacity: 0.7;
+
+ button{
+   font-size: 1rem;
+   background-color: #355434;
+   color:white;
+   border: none;
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+ button:hover{
+   border: 2px solid #355434;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   background-color: white;
+   color:black;
  }
