@@ -54,7 +54,7 @@ let jsonData = [
   "giftPrice" : "$97.00", "link" : "https://www.neimanmarcus.com/p/campo-beauty-diffuser-prod230210081?childItemId=NMC54TY_"},
   {"category": "fun", "item" : "That's What She Said Game", "picture" : "https://target.scene7.com/is/image/Target/GUEST_c3b23897-3d5c-481a-8cd6-f9b21cb7718a?fmt=webp&wid=1400&qlt=80",
   "giftPrice" : "$24.99", "link" : "https://www.target.com/p/that-s-what-she-said-game/-/A-51093164#lnk=sametab"},
-  {"category": "personal", "item" : "L'occitane Advent Calendar", "picture" : "https://www.loccitane.com/on/demandware.static/-/Sites-occ_master/default/dw04c8630c/large/10CACLA20.png",
+  {"category": "personal", "item" : "L'occitane Advent Calendar", "picture" : "https://images-na.ssl-images-amazon.com/images/I/81cWuN1NdwL._SL1500_.jpg",
   "giftPrice" : "$74.00", "link" : "https://www.loccitane.com/en-us/signature-advent-calendar-10CACLA20.html"},
   {"category": "home", "item" : "Cooluli Mini Fridge", "picture" : "https://m.media-amazon.com/images/I/71yOIE-CqrL._AC_SL1500_.jpg",
   "giftPrice" : "$49.99", "link" : "https://www.amazon.com/Cooluli-Fridge-Electric-Cooler-Warmer/dp/B01G7IL476?ref_=Oct_s9_apbd_otopr_hd_bw_bjv5lz&pf_rd_r=DN59FEP4FN2D1N65B1NR&pf_rd_p=6ee80d68-08c1-5197-96ef-d4c7538083ab&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=678542011&th=1"},
