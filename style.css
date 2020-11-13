@@ -9,14 +9,14 @@ h1{
   justify-content: center;
   align-items: center;
   font-family: 'Arima Madurai', cursive;
-  font-size:4rem;
+  font-size:5vw;
 }
 h2{
   color: #03211f;
-  font-size:1.5rem;
+  font-size:2vw;
 }
 hr{
-  height: 5px;
+  height: 0.5vh;
   border:none;
   background-color: #725a41;
 }
@@ -36,11 +36,11 @@ hr{
   justify-content: center;
   white-space: nowrap;
   font-family: 'Arima Madurai', cursive;
-  font-size: 1rem;
+  font-size: 1.5vw;
 }
 .contentPrice{
   color:#701313;
-  font-size: 1rem;
+  font-size: 1.5vw;
 }
 .grid{
   display:grid;
@@ -51,7 +51,7 @@ hr{
 }
 .grid > div {
    width:20vw;
-   height:60vh;
+   height:55vh;
    margin:1vmin;
    background-color:#e8d9c2;
    color: #03211f;
@@ -69,7 +69,7 @@ hr{
   transform: scale(1.25);
 }
  button{
-   font-size: 1rem;
+   font-size: 1.5vw;
    background-color: #355434;
    color:white;
    border: none;
@@ -77,7 +77,7 @@ hr{
    cursor: pointer;
  }
  button:hover{
-   border: 2px solid #355434;
+   border: 0.2vw solid #355434;
    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
    background-color: white;
    color:black;
