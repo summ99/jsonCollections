@@ -30,15 +30,26 @@ hr{
   width:75vw;
   height:80vh;
 }
-.contentName{
+.contentItem{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  width:20vw;
+  margin:1vmin;
+  background-color:#e8d9c2;
+  color: #03211f;
+  border:solid 1px #ddd;
+}
+.contentName{
+  margin-bottom: 1vmin;
   white-space: nowrap;
   font-family: 'Arima Madurai', cursive;
   font-size: 1.5vw;
 }
 .contentPrice{
+  margin-top: 0;
+  margin-bottom: 1vmin;
   color:#701313;
   font-size: 1.5vw;
 }
@@ -49,17 +60,10 @@ hr{
   margin-top: 5vmin;
   width: 90vw;
 }
-.grid > div {
-   width:20vw;
-   height:55vh;
-   margin:1vmin;
-   background-color:#e8d9c2;
-   color: #03211f;
-   border:solid 1px #ddd;
- }
+
 .grid img {
    margin-top: 0.55vmin;
-   padding:0.5vmin;
+   padding:0.45vmin;
    border:none;
    width:18vw;
    height:30vh;
@@ -69,7 +73,8 @@ hr{
   transform: scale(1.25);
 }
  button{
-   font-size: 1.5vw;
+   margin-bottom: 1vmin;
+   font-size: 1.8vmin;
    background-color: #355434;
    color:white;
    border: none;

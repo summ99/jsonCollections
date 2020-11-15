@@ -92,7 +92,6 @@ function createElement(incomingJSON){
   for (let i = 0; i < incomingJSON.length; i++) {
 
     let newContentElement = document.createElement("DIV");
-    newContentElement.style.backgroundcolor = "#eee";
     newContentElement.classList.add('contentItem');
 
     //create imgs of the gift ideas
